@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bearcat Ice Cream Order Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="IceCream.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+        </script>
+        <script type="text/javascript" src="IceCream.js"></script>
+    </head>
+    <body id="main">
+        <div>
+            <h2>
+                Bearcat Ice Cream Order Form
+            </h2>
+            <p>Flavor
+            <select id="flavor">
+                <option value ="none">Choose a flavor</option>
+                <option value ="chocolate">Chocolate</option>
+                <option value ="mint">Mint Chocolate Chip</option>
+                <option value="strawberry">Strawberry</option>
+                <option value ="vanilla">Vanilla</option>
+            </select>
+            </p>
+            <fieldset class="options">
+                <legend>Size</legend>
+                <input type="radio" name="size" id="small" value="small">Small<br>
+                <input type="radio" name="size" id="medium" value="medium">Medium<br>
+                <input type="radio" name="size" id="large" value="large">Large<br>
+            </fieldset>
+            <p>Quantity(1-10)
+                <input type="text" id="quantity">
+            </p>
+            <fieldset class="options">
+                <legend>Extra Topping</legend>
+                <input type="checkbox" id="caramel" name="topping" value="caramel">Salted Caramel<br>
+                <input type="checkbox" id="strawberry" name="topping" value="strawberry">Sugar Free Strawberry<br>
+            </fieldset>
+            <p>
+                <input type="button" id="order" value="Order">
+            </p>          
+            <p id="price" class="price">
+            </p>
+            <p id="random" class="price"> </p>
+            <img class="imgIce" src="Chocolate.jpg" id="choco" alt = "Chocolate image"/>
+            <img class="imgIce" src="Strawberry.jpg" id="straw" alt = "Strawberry image "/>
+            <img class="imgIce" src="Vanilla.jpg" id="vanilla" alt = "Vanilla"/>
+            <img class="imgIce" src="mint.jpg" id="mint" alt = "Choco chip Mint"/>
+        </div>
+    </body>
+</html>

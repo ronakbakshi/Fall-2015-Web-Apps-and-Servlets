@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2015, 10:12:16 AM
+    Author     : Ronak Bakshi
+*/
+h2{
+    font-family:cursive;
+    color:darkred;
+}
+body {
+    position:relative;
+    background-color:palegoldenrod;
+}
+.price{
+    color:blue;
+    font-size: 120%; 
+}
+.options {
+    width: 25%;
+}
+
+.imgIce{
+    display:none;
+    width: 10em;
+    height: 10em;
+}
