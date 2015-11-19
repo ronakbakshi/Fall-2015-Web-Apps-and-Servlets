@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bearcat Ice Cream Order Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="IceCreamOrderStyling.css">
+        <script type="text/javascript" src="IceCreamAJAX.js"></script>
+    </head>
+    <body>
+        <div>
+            <h2>
+                Bearcat Ice Cream Order Form
+            </h2>
+            <p>Flavor
+            <select id="flavor">
+                <option value ="none">Choose a flavor</option>
+                <option value ="chocolate">Chocolate</option>
+                <option value ="mint">Mint Chocolate Chip</option>
+                <option value="strawberry">Strawberry</option>
+                <option value ="vanilla">Vanilla</option>
+            </select>
+            </p>
+            <fieldset class="options">
+                <legend>Size</legend>
+                <input type="radio" name="size" id="small">Small<br>
+                <input type="radio" name="size" id="medium">Medium<br>
+                <input type="radio" name="size" id="large">Large<br>
+            </fieldset>
+            <p>Quantity(1-10)
+                <input type="text" id="quantity">
+            </p>
+            <fieldset class="options">
+                <legend>Extra Topping</legend>
+                <input type="checkbox" id="caramel">Salted Caramel<br>
+                <input type="checkbox" id="strawberry">Sugar Free Strawberry<br>
+            </fieldset>
+            <p>
+                <input type="button" id="order" value="Order">
+            </p>
+            <h3 id="headerOutput" class="output"></h3>
+            <div id="pTotal" class="output">
+            </div>
+            <div id="random" class="output"> </div>
+        </div>
+    </body>
+</html>
