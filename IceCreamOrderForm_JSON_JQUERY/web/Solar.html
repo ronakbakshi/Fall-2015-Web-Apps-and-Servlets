@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Solar System Information</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+        </script>
+        <script src="Solar.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Solar System Information</h1>
+            <h3>Find all planets with</h3>
+            <table>
+                <tr>
+                    <td>
+                        distance from sun greater than
+                    </td>
+                    <td>
+                        <input type="text" id="distID">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        diameter greater than
+                    </td>
+                    <td>
+                        <input type="text" id="diameterID">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        gravity greater than
+                    </td>
+                    <td>
+                        <input type="text" id="gravityID">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan ="2">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="find" id="getPlanets">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan ="2">
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Distance
+                    </th>
+                    <th>
+                        Period
+                    </th>
+                    <th>
+                        Diameter
+                    </th>
+                    <th>
+                        Mass
+                    </th>
+                    <th>
+                        Gravity
+                    </th>
+                </tr>
+                <tbody id="planetList"></tbody>
+            </table>
+        </div>
+    </body>
+</html>
