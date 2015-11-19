@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document: songs.dtd
+    Description: Song information.
+    Song lengths are in minutes (should it be an integer number  NOT a floating point).
+    Song ratings are integers between 0 and 10 (inclusive).
+-->
+<!ELEMENT songList (song+)>
+<!ELEMENT song (title, singer, length, ratingList)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT ratingList (rating+)>
+<!ELEMENT rating (#PCDATA)>
+
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE songList SYSTEM 'songs.dtd'>
+<songList>
+<song>
+   <title>Uptown Funk</title>
+   <singer>Mark Ronson</singer>
+   <length>7</length>
+   <ratingList>
+      <rating>8</rating>
+      <rating>5</rating>
+   </ratingList>
+</song>
+    <song>
+   <title>Wildest Dreams</title>
+   <singer>Taylor Swift</singer>
+   <length>6</length>
+   <ratingList>
+      <rating>9</rating>
+      <rating>10</rating>
+	  <rating>10</rating>
+   </ratingList>
+</song>
+<song>
+   <title>American Oxygen</title>
+   <singer>Rihanna</singer>
+   <length>4</length>
+   <ratingList>
+      <rating>7</rating>
+	  <rating>10</rating>
+      <rating>4</rating>
+   </ratingList>
+</song>
+<song>
+   <title>Animals</title>
+   <singer>Maroon5</singer>
+   <length>5</length>
+   <ratingList>
+      <rating>6</rating>
+      <rating>10</rating>
+	  <rating>9</rating>
+   </ratingList>
+</song>
+
+</songList>
+
+
