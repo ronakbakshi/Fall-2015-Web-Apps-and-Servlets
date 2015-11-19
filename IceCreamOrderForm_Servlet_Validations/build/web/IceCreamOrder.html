@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bearcat Ice Cream Order Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="IceCream01html.css">
+    </head>
+    <body>
+        <div>
+            <form action="BakshiServlet">
+                <h2>
+                    Bearcat Ice Cream Order Form
+                </h2>
+                <p>Flavor
+                    <select id="flavor" name = "flavor">
+                        <option value ="none">Choose a type</option>
+                        <option value ="Chocolate">Chocolate</option>
+                        <option value ="Mint Chocolate Chip">Mint Chocolate Chip</option>
+                        <option value="Strawberry">Strawberry</option>
+                        <option value ="Vanilla">Vanilla</option>
+                    </select>
+                </p>
+                <fieldset class="options">
+                    <legend>Size</legend>
+                    <input type="radio" name="size" id="small" value="small">Small<br>
+                    <input type="radio" name="size" id="medium" value="medium">Medium<br>
+                    <input type="radio" name="size" id="large" value="large">Large<br>
+                </fieldset>
+                <p>Quantity(1-10)
+                    <input type="text" id="quantity" name = "quantity">
+                </p>
+                <fieldset class="options">
+                    <legend>Extra Topping</legend>
+                    <input type="checkbox" id="caramel" name = "caramel" value = "caramel">Salted Caramel<br>
+                    <input type="checkbox" id="sfstrawberry" name = "SFstrawberry" value="SFstrawberry">Sugar Free Strawberry<br>
+                </fieldset>
+                <p>
+                    <input type="submit" id="order" value="Order" name = "order">
+                </p>          
+            </form>
+        </div>
+    </body>
+</html>
