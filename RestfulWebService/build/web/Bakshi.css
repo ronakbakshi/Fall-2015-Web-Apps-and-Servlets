@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 09, 2015
+    Author     : Ronak Bakshi
+*/
+
+body {
+    background-color: lightgreen;
+}
+table, th, td {
+   border: 1px solid blue;
+   border-collapse: collapse;
+   text-align:center;
+}
+#name{
+    position:relative;
+    font-family:cursive;
+    font-size:50px;
+    text-align:center;
+    color:brown;
+    
+}
+#image{
+     width: 150px;
+     height: 150px;
+     position: absolute;
+     right: 0px;
+}
+#place{
+    position:relative;
+    font-family:serif;
+    font-size:35px;
+    text-align:center;
+    color:navy;
+}
+#why{
+    font-family:fantasy;
+    font-size: 30px;
+   
+}
+table {
+    width: 60%;
+    background-color: lightgray;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color:darkslategrey;
+    margin-left: 20%;
+}
+th, td{
+    height: 30px;
+    padding: 15px;
+}
